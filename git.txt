@@ -1,0 +1,15 @@
+1. git init
+after this command files will be in modified area
+
+stages -- 1. modified 2. staging 3. committed
+
+2. git status--- if the response is in red. it will be in modified stage.
+3. git add file.html/. ---- files will be in staging stage
+4. git rm --cached filename --- to remove anything from staging to modified stage
+5. git commit -m "message"
+6. checkout commit, revert commit, reset commit
+7. git log --oneline ---to check all the commits made so far
+8. git checkout commitNumber ---- to check any commit | to undo this -> git checkout master
+
+********************************* SPECIAL *************************************
+after commiting follow rest of the process from newly created github project.
