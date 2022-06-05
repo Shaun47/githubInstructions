@@ -17,3 +17,14 @@ git brance -M main
 git push -u origin main
 
 
+********************************* Git Feature ***********************************
+git branch feature-1 --------- to create new branch
+git branch -a ---------------- to check all the branch
+git checkout feature-1 ------- now I'm in feature-1 branch
+git add . -------------------- to stage all changes of the branch
+git commit -m ---------------- to commit all changes of the branch
+git checkout main ------------ I'm back in the master branch
+git checkout feature-1 ------- now returning back to feature-1 branch
+git branch -D feature-1 ------ If I want to delete it.
+git checkout main ------------ returning back to main
+git merge feature-1 ---------- merging
