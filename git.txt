@@ -28,3 +28,13 @@ git checkout feature-1 ------- now returning back to feature-1 branch
 git branch -D feature-1 ------ If I want to delete it.
 git checkout main ------------ returning back to main
 git merge feature-1 ---------- merging
+
+
+
+************************************* adding new branch and merge it ******************************************
+git branch new_branch  ----- create branch
+git checkout＜new-branch＞ --- go to new branch
+git add . --------- stage all the files 
+git commit -m "" ---- commit changes
+git checkout main ---- go to main branch
+git merge new branch ---- git merge new branch
