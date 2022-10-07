@@ -32,9 +32,11 @@ git merge feature-1 ---------- merging
 
 
 ************************************* adding new branch and merge it ******************************************
-git branch new_branch  ----- create branch
-git checkout＜new-branch＞ --- go to new branch
-git add . --------- stage all the files 
-git commit -m "" ---- commit changes
-git checkout main ---- go to main branch
-git merge new branch ---- git merge new branch
+git add .
+git commit -m "project-update"
+git push -u origin add_product
+
+git checkout main
+git pull origin main
+git merge add_product
+git push -u origin main
